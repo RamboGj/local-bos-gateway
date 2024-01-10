@@ -1,6 +1,6 @@
-const components = VM.require("buildhub.near/widget/components")
+const colors = VM.require("rambo-dev.near/widget/Theme")
 
-console.log("components", components)
+console.log("colors", colors)
 
 State.init({
   testConst: 0,
