@@ -15,7 +15,8 @@ const StyledBullet = styled.div`
   border-radius: 8px;
 `;
 
-function Bullet({ children }) {
+// 
+function Bullet({ children, variant }) {
   return <StyledBullet {...theme}>{children}</StyledBullet>;
 }
 
